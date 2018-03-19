@@ -13,12 +13,12 @@ pipeline {
     }
     stage('Compile') {
       steps {
-        bat 'javac DemoMar\\src\\HelloWorld.java'
+        bat 'javac DemoMar\\src\\HelloWolrd.java'
       }
     }
     stage('Execute') {
       steps {
-        bat 'java DemoMar\\src\\HelloWorld'
+        bat 'java DemoMar\\src\\HelloWolrd'
       }
     }
     stage('Result') {
